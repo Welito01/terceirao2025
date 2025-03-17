@@ -19,3 +19,40 @@
 .opcoes-acessibilidade button{
     margin-bottom: 5px;
 }
+
+:root {
+    --laranja-claro: #FF862A;
+    --alto-contraste-fundo: #000000;
+    --alto-contraste-texto: #ffffff;
+    --alto-contraste-link: #ffd700;
+}
+
+.alto-constraste
+.alto-constraste header,
+.alto-constraste footer,
+.alto-constraste .formulario{
+    background-color: var(--alto-contraste-fundo);
+    color: var(--alto-contraste-texto);
+}
+
+.alto-constraste .nav-link{
+.alto-constraste .botao-inicio,
+.alto-constraste .formulario button,
+.alto-constraste .btn-primary{ 
+    color: var(--alto-contraste-link);
+}
+}
+
+.alto-constraste #tropicalia {
+    background: none;
+}
+
+.alto-constraste #galeria {
+    background-color: var(--alto-contraste-fundo);
+}
+
+.alto-constraste .fundo galeria {
+    background: none;
+}
+
+
